@@ -13,6 +13,8 @@ This repository demonstrates a CI/CD pipeline for a Node.js application. The pip
 - GitHub Secrets:
   - `DOCKER_USERNAME`: Your Docker Hub username.
   - `DOCKER_PASSWORD`: Your Docker Hub password.
+  - `AWS_ACCESS_KEY_ID`: Your AWS account ACCESS Key id.
+  - `AWS_SECRET_ACCESS_KEY`: Your AWS Secret access key.
 
 ## Workflow Steps
 
