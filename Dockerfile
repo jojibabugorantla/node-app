@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 3000
 
 # Run the application
-CMD ["npm", "start"]
+CMD ["npm", "start", "--host", "0.0.0.0"]

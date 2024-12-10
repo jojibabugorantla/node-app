@@ -61,10 +61,10 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-west-2
 
-    - name: Set up kubectl
-      run: |
-        echo "${{ secrets.KUBE_CONFIG_CONTENT }}" > kubeconfig
-        export KUBECONFIG=kubeconfig
+    # - name: Set up kubectl
+    #   run: |
+    #     echo "${{ secrets.KUBE_CONFIG_CONTENT }}" > kubeconfig
+    #     export KUBECONFIG=kubeconfig
 
     - name: Deploy to EKS
       run: |
